@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+# 301
+#redirect 301 /antigo/arquivo_antigo.htm http://www.seusite.com.br/aquivo_novo.htm
+
+# domínio velho para o novo 
+#Options +FollowSymLinks
+#RewriteEngine on
+#RewriteRule (.*) http://www.novosite.com.br/$1 [R=301,L]
