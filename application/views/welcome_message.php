@@ -54,12 +54,12 @@
 	
     <div class="container">
       <h4>Chained Selects jQuery Plugin: Codeigniter, MySQL and Twitter Bootstrap Framework</h4>
-      <p>This code is used to select a state, city and neighborhood from some country, in this case brazil, and also populated from MySQL database.</p>
+      <p>This plugin is used to select a state, city and neighborhood from some country in the world, in this case brazil, and also populated from MySQL database.</p>
       <p>&nbsp;</p>
       
       
       <h4>How works</h4>
-      <p>Select a state, city and neighborhood: Paraná, Curitiba and Cristo Rei.</p>
+      <p>Select a state, city and neighborhood, for example: Paraná, Curitiba and Cristo Rei.</p>
 
   		<div id="loading">Aguarde ...</div>
       
